@@ -11,17 +11,17 @@
     <script type="text/javascript" src="./script.js">
 	</script>
 
-<form class="Post">
+<form method="POST">
 <label for="name ">Name*</label>
 <input type="text" id="name" required><br><br>
 <label for="email ">Email*</label>
 <input type="text"name=email id="email" required><br> <br>
-<label for="gender ">Gender</label>
+<label for="gender ">Gender*</label>
 <input type="radio" name="gender" value="male" id="gender" required>male
 <input type="radio" name="gender" value="female" id="gender" required >female <br><br>
 <label for="laptop ">Laptop Brands</label>
   <select name="laptop" id="laptop">
-     <option blank ></option>
+     <option selected ></option>
 	 <option value="Apple">Apple</option>
 	 <option value="Asus">Asus</option>
 	 <option value="HP">HP</option>
@@ -34,12 +34,9 @@
   <label for="password">password*</label>
   <input type="password" name="password" id="password" required><br><br>
   <label for="portfolio">URL</label>
-  <input type="url"name="url" id="portfolio"><br><br>
+  <input type="url"name="url" id="portfolio" ><br><br>
   <button type="submit">SUbmit </button>
 
 </form>
-
-
 </body>
-
 </html>
